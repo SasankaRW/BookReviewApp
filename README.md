@@ -56,7 +56,7 @@ Before running this project, make sure you have the following installed:
 
 4. **Run the backend server:**
    ```bash
-   npm run serve
+   npm run server
    ```
    This will start the backend API at `http://localhost:8080`.
 
