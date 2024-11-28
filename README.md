@@ -1,6 +1,4 @@
-Got it! Here's the updated README file with Tailwind CSS included in the technologies used section and frontend setup instructions:
 
----
 
 # Book Review App
 
