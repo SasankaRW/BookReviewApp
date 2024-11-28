@@ -8,7 +8,7 @@ const reviewService = {
           const response = await axios.get(BASE_URL);
           return response.data.map(review => ({
             ...review,
-            _id: review._id // Keep `_id` as-is for compatibility with MongoDB
+            _id: review._id 
           }));
         } catch (error) {
           console.error('Error fetching reviews:', error);
