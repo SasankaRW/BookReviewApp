@@ -39,7 +39,6 @@ const BookReviewApp = () => {
   const fetchReviews = async () => {
     try {
       const data = await reviewService.getAllReviews();
-      // Sort reviews by dateAdded in descending order
       const sortedReviews = data.sort((a, b) => new Date(b.dateAdded) - new Date(a.dateAdded));
       setReviews(sortedReviews);
     } catch (error) {
